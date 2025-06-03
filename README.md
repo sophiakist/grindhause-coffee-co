@@ -1,54 +1,52 @@
-# React + TypeScript + Vite
+# Grindhaus Coffee Co. – Artisan Café Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fictional portfolio project for a modern, community-focused coffee shop built with a blend of React, custom CSS, and thoughtful UX design.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Grindhaus Coffee Co.** is a handcrafted café experience brought online — imagined as a local hangout with strong coffee, open mic nights, and a sustainable mission. This website concept was designed and developed for a fake client to demonstrate skills in front-end development, UI/UX design, and responsive layout techniques.
 
-## Expanding the ESLint configuration
+## Client Goals
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Display café menu and hours
+- Showcase weekly community events
+- Offer newsletter sign-up
+- Help users locate the café easily
+- Reflect the café’s warm, slightly edgy brand tone
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Responsive navigation bar with logo and page links
+- Hero section with call-to-action buttons
+- “About” section with founder story (Marcos, 2021)
+- Weekly events layout with emphasis on local community
+- Footer with contact info and business hours
+- Clean, accessible layout and typography hierarchy
+- Custom brand colors and typeface choices
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tech Stack
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React (Vite + TypeScript)**
+- **Custom CSS**
+- **Google Fonts** – Bebas Neue & Work Sans
+- **Responsive Design** – Desktop & mobile layouts
+- **Asset optimization** for performance
+
+## Branding
+
+- **Colors:**  
+  - Deep Espresso `#3E2723`  
+  - Latte Cream `#F5EFE6`  
+  - Brick Red `#B7410E`  
+  - Teal Accent `#4C787E`
+
+- **Typography:**  
+  - Headings: Bebas Neue  
+  - Body: Roboto / Work Sans
+
+## Running the Project
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/grindhaus-coffee-site.git
+   cd grindhaus-coffee-site
