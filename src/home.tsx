@@ -7,7 +7,7 @@ function Home() {
     <div className="hero">
       <div className="heading-image"></div>
       <div className="heading">
-        <img src="src/assets/gcc_full_logo.png" alt="Grindhaus Coffee Co. Logo" className="logo" />
+        <img src="/assets/gcc_full_logo.png" alt="Grindhaus Coffee Co. Logo" className="logo" />
         <h3>Fuel Your Day, Stay a While</h3>
         <div className="hero-buttons">
           <button>Order Online</button>
@@ -19,7 +19,7 @@ function Home() {
       <div className="row">
         <div className="col">
           <div className="about-image">
-            <img src="src/assets/brooke-cagle-WfV4KscvvBQ-unsplash.jpg" alt="Owner" />
+            <img src="/assets/brooke-cagle-WfV4KscvvBQ-unsplash.jpg" alt="Owner" />
           </div>
         </div>
         <div className="col">
