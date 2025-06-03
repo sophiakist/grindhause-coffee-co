@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import { FaInstagram, FaFacebook } from 'react-icons/fa';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Home from './home';
 import Menu from './menu';
 import Events from './events';
@@ -67,6 +68,7 @@ function App() {
         </div>
         <p className="footer-text">© 2025 GrindHaus Coffee Co. All rights reserved.</p>
       </footer>
+      <SpeedInsights />
     </>
   );
 }
