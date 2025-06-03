@@ -198,16 +198,11 @@
     gap: 1rem;
   }
   
-  /* Make event cards take up more (or full) width, centered */
-  .event-card {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
   /* Ensure carousel items display neatly */
   .events-carousel {
     gap: 0.5rem;
     padding-bottom: 0.5rem;
+    flex-direction: column;
   }
   
   /* Adjust hero section height for smaller screens */
@@ -215,8 +210,24 @@
     height: 50vh;
   }
   
+  .hero .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .hero h3 {
+    font-size: 1.5rem;
+  }
+
   /* For newsletter signups, ensure inputs are responsive */
   .signup-input {
     width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .events-carousel {
+    flex-wrap: wrap;  /* allow wrapping */
+    /* keep row direction, so items wrap into a new row */
   }
 }
