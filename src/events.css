@@ -1,0 +1,71 @@
+.events-page {
+  padding: 2rem;
+}
+
+.events-page h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.event-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.view-toggle button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #ddd;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.view-toggle button.active {
+  background-color: var(--color-tertiary);
+  color: #fff;
+}
+
+.filter label {
+  margin-right: 0.5rem;
+}
+
+.filter select {
+  padding: 0.5rem;
+}
+
+.events-container {
+  margin-top: 1rem;
+}
+
+.event-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-item {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.event-item.recurring {
+  border-left: 4px solid var(--color-accent);
+}
+
+.event-item h3 {
+  margin: 0 0 0.5rem;
+}
+
+/* Placeholder styling for Calendar view */
+.calendar-view {
+  text-align: center;
+  padding: 2rem;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+}

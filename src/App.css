@@ -1,0 +1,109 @@
+
+/* Navbar styling */
+.navbar {
+  background-color: var(--color-primary);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.nav-item a:hover {
+  color: var(--color-accent);
+}
+
+/* Footer Section */
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 20rem;
+}
+
+.footer-hours,
+.footer-content {
+  margin: 0 1rem;
+}
+
+/* Left column: Hours */
+.footer-hours {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.footer-hours h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.hours-item h3,
+.hours-item p {
+  font-size: 0.9rem;
+}
+
+/* Right column: Other footer content */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  gap: 1rem;
+}
+
+/* Full-width footer text below the two columns */
+.footer-text {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.footer-logo h2 {
+  margin: 0;
+}
+
+.footer-details {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  color: var(--color-secondary);
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
