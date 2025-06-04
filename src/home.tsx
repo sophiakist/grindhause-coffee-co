@@ -5,7 +5,9 @@ function Home() {
   return (
     <>
     <div className="hero">
-      <div className="heading-image"></div>
+      <div className="heading-image">
+        <img src="/assets/no-revisions-d1ngW7SNehM-unsplash.jpg" alt="Coffee Shop Interior" className="hero-image" />
+      </div>
       <div className="heading">
         <img src="/assets/gcc_full_logo.png" alt="Grindhaus Coffee Co. Logo" className="logo" />
         <h3>Fuel Your Day, Stay a While</h3>
